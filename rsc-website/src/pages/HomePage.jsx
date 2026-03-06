@@ -2,24 +2,24 @@ import { Link } from 'react-router-dom';
 import { useData } from '../context/DataContext';
 import { TIERS, TIER_COLORS, toSlug, formatWP, getFranchiseLogo, getTierIcon } from '../utils/dataUtils';
 
-export default function HomePage() {
-  const { standings, franchises, schedules } = useData();
+function TeamLogo({ teamName, franchises, size = 18 }) {
+  const franchise = franchises?.find(f => f.teams?.some(t => t.name === teamName));
+  if (!franchise) return null;
+  return (
+    <img
+      src={getFranchiseLogo(franchise)}
+      alt=""
+      style={{ width: size, height: size, objectFit: 'contain', flexShrink: 0 }}
+      onError={e => e.target.style.display = 'none'}
+    />
+  );
+}
 
-  // Get recent results across all tiers
-  const recentGames = [];
-  for (const tier of TIERS) {
-    const tierSched = schedules[tier] || [];
-    for (const day of [...tierSched].reverse()) {
-      const played = day.games.filter(g => g.played);
-      if (played.length > 0) {
-        played.slice(0, 2).forEach(g => recentGames.push({ ...g, tier, matchDay: day.label, date: day.date }));
-        break;
-      }
-    }
-  }
+export default function HomePage() {
+  const { standings, franchises } = useData();
 
   // Get top teams from each tier (top 3)
-  const tierHighlights = TIERS.slice(0, 6).map(tier => {
+  const tierHighlights = TIERS.map(tier => {
     const teams = (standings[tier] || []).slice(0, 3);
     return { tier, teams };
   });
@@ -57,59 +57,32 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Recent Results */}
-        <div style={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 12, padding: 24 }}>
-          <h2 className="text-lg font-bold text-white mb-4">Recent Results</h2>
-          <div className="space-y-3">
-            {recentGames.slice(0, 9).map((g, i) => (
-              <div key={i} style={{ background: '#0f172a', borderRadius: 8, padding: '10px 14px' }}>
-                <div className="flex items-center justify-between mb-1">
-                  <span style={{ fontSize: 11, color: TIER_COLORS[g.tier], fontWeight: 600 }}>{g.tier}</span>
-                  <span className="text-xs text-slate-500">{g.matchDay}</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <Link to={`/team/${toSlug(g.away)}`} className={`text-sm font-medium ${g.awayScore > g.homeScore ? 'text-white' : 'text-slate-400'} hover:text-sky-400 transition-colors`}>
-                    {g.away}
-                  </Link>
-                  <span className="text-sm font-bold mx-3" style={{ color: '#0ea5e9' }}>
-                    {g.awayScore} – {g.homeScore}
-                  </span>
-                  <Link to={`/team/${toSlug(g.home)}`} className={`text-sm font-medium ${g.homeScore > g.awayScore ? 'text-white' : 'text-slate-400'} hover:text-sky-400 transition-colors`}>
-                    {g.home}
-                  </Link>
-                </div>
+      {/* Tier Leaders */}
+      <div>
+        <h2 className="text-lg font-bold text-white mb-4">Tier Leaders</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {tierHighlights.map(({ tier, teams }) => (
+            <div key={tier} style={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 12, padding: 16 }}>
+              <div className="flex items-center justify-between mb-3">
+                <Link to={`/tier/${toSlug(tier)}`} className="flex items-center gap-2 hover:opacity-80">
+                  <img src={getTierIcon(tier)} alt="" style={{ width: 18, height: 18, objectFit: 'contain' }} onError={e => e.target.style.display = 'none'} />
+                  <span className="font-bold text-white text-sm">{tier}</span>
+                </Link>
+                <Link to={`/tier/${toSlug(tier)}`} className="text-xs text-sky-400 hover:text-sky-300">Full standings →</Link>
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Tier Standings Snapshots */}
-        <div className="lg:col-span-2 space-y-4">
-          <h2 className="text-lg font-bold text-white">Tier Leaders</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {tierHighlights.map(({ tier, teams }) => (
-              <div key={tier} style={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 12, padding: 16 }}>
-                <div className="flex items-center justify-between mb-3">
-                  <Link to={`/tier/${toSlug(tier)}`} className="flex items-center gap-2 hover:opacity-80">
-                    <span style={{ width: 8, height: 8, borderRadius: '50%', background: TIER_COLORS[tier], display: 'inline-block' }} />
-                    <span className="font-bold text-white text-sm">{tier}</span>
+              {teams.map((t, i) => (
+                <div key={t.name} className="flex items-center gap-2 py-1.5">
+                  <span className="text-slate-500 text-xs w-4">{t.overallRank ?? i + 1}</span>
+                  <TeamLogo teamName={t.name} franchises={franchises} />
+                  <Link to={`/team/${toSlug(t.name)}`} className="flex-1 text-sm text-slate-200 hover:text-sky-400 transition-colors font-medium truncate">
+                    {t.name}
                   </Link>
-                  <Link to={`/tier/${toSlug(tier)}`} className="text-xs text-sky-400 hover:text-sky-300">Full standings →</Link>
+                  <span className="text-xs text-slate-400">{t.w}-{t.l}</span>
+                  <span className="text-xs text-slate-500 w-10 text-right">{formatWP(t.wp)}</span>
                 </div>
-                {teams.map((t, i) => (
-                  <div key={t.name} className="flex items-center gap-2 py-1.5">
-                    <span className="text-slate-500 text-xs w-4">{t.overallRank ?? i + 1}</span>
-                    <Link to={`/team/${toSlug(t.name)}`} className="flex-1 text-sm text-slate-200 hover:text-sky-400 transition-colors font-medium truncate">
-                      {t.name}
-                    </Link>
-                    <span className="text-xs text-slate-400">{t.w}-{t.l}</span>
-                    <span className="text-xs text-slate-500 w-10 text-right">{formatWP(t.wp)}</span>
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          ))}
         </div>
       </div>
 

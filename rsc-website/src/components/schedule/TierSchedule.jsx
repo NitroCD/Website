@@ -1,21 +1,37 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
-import { toSlug } from '../../utils/dataUtils';
+import { toSlug, getFranchiseLogo } from '../../utils/dataUtils';
 
-function GameRow({ game }) {
+function TeamLogo({ teamName, franchises }) {
+  const franchise = franchises?.find(f => f.teams?.some(t => t.name === teamName));
+  if (!franchise) return null;
+  return (
+    <img
+      src={getFranchiseLogo(franchise)}
+      alt=""
+      style={{ width: 20, height: 20, objectFit: 'contain', flexShrink: 0 }}
+      onError={e => e.target.style.display = 'none'}
+    />
+  );
+}
+
+function GameRow({ game, franchises }) {
   const awayWon = game.played && game.awayScore > game.homeScore;
   const homeWon = game.played && game.homeScore > game.awayScore;
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', padding: '8px 0', borderBottom: '1px solid #1e293b' }}>
-      <Link
-        to={`/team/${toSlug(game.away)}`}
-        style={{ flex: 1, textAlign: 'right', fontSize: 13, fontWeight: awayWon ? 700 : 400, color: awayWon ? '#fff' : '#94a3b8', transition: 'color 0.1s' }}
-        className="hover:text-sky-400"
-      >
-        {game.away}
-      </Link>
+      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 6 }}>
+        <Link
+          to={`/team/${toSlug(game.away)}`}
+          style={{ fontSize: 13, fontWeight: awayWon ? 700 : 400, color: awayWon ? '#fff' : '#94a3b8', transition: 'color 0.1s' }}
+          className="hover:text-sky-400"
+        >
+          {game.away}
+        </Link>
+        <TeamLogo teamName={game.away} franchises={franchises} />
+      </div>
       <div style={{ width: 90, textAlign: 'center', flexShrink: 0 }}>
         {game.played ? (
           <span style={{ fontWeight: 700, color: '#0ea5e9', fontSize: 15 }}>
@@ -25,19 +41,22 @@ function GameRow({ game }) {
           <span style={{ color: '#475569', fontSize: 12 }}>vs</span>
         )}
       </div>
-      <Link
-        to={`/team/${toSlug(game.home)}`}
-        style={{ flex: 1, textAlign: 'left', fontSize: 13, fontWeight: homeWon ? 700 : 400, color: homeWon ? '#fff' : '#94a3b8', transition: 'color 0.1s' }}
-        className="hover:text-sky-400"
-      >
-        {game.home}
-      </Link>
+      <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: 6 }}>
+        <TeamLogo teamName={game.home} franchises={franchises} />
+        <Link
+          to={`/team/${toSlug(game.home)}`}
+          style={{ fontSize: 13, fontWeight: homeWon ? 700 : 400, color: homeWon ? '#fff' : '#94a3b8', transition: 'color 0.1s' }}
+          className="hover:text-sky-400"
+        >
+          {game.home}
+        </Link>
+      </div>
     </div>
   );
 }
 
 export default function TierSchedule({ tier }) {
-  const { schedules, standings } = useData();
+  const { schedules, franchises } = useData();
   const schedule = schedules[tier] || [];
   const [teamFilter, setTeamFilter] = useState('All Teams');
 
@@ -69,7 +88,7 @@ export default function TierSchedule({ tier }) {
           {day.date && <span style={{ color: '#64748b', fontSize: 12 }}>{day.date}</span>}
         </div>
         <div style={{ padding: '4px 16px' }}>
-          {day.games.map((g, i) => <GameRow key={i} game={g} />)}
+          {day.games.map((g, i) => <GameRow key={i} game={g} franchises={franchises} />)}
         </div>
       </div>
     );
