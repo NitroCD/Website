@@ -32,10 +32,20 @@ const PG_COLS = [
   { key: 'SvPG',  label: 'SVPG', decimals: 2, desc: 'Saves Per Game' },
   { key: 'ShPG',  label: 'SHPG', decimals: 2, desc: 'Shots Per Game' },
   { key: 'Shot %',label: 'SH%',  decimals: 1, desc: 'Shot Percentage' },
-  { key: 'DI',    label: 'DI',   decimals: 0, desc: 'Demos Inflicted' },
-  { key: 'DT',    label: 'DT',   decimals: 0, desc: 'Demos Taken' },
+  { key: 'DI',    label: 'DIPG', decimals: 2, desc: 'Demos Inflicted Per Game', perGame: true },
+  { key: 'DT',    label: 'DTPG', decimals: 2, desc: 'Demos Taken Per Game',     perGame: true },
   { key: 'RPV',   label: 'RPV',  decimals: 2, desc: 'RSC Performance Value' },
 ];
+
+// For stats that don't have a per-game column in the data, compute from totals
+function computeStat(player, key, perGame, colDef) {
+  if (perGame && colDef?.perGame) {
+    const gp = parseFloat(player['GP'] || 0);
+    const raw = parseFloat(player[key] || 0);
+    return gp > 0 ? raw / gp : 0;
+  }
+  return parseFloat(player[key] || 0);
+}
 
 export default function TierStats({ tier }) {
   const { stats } = useData();
@@ -61,9 +71,10 @@ export default function TierStats({ tier }) {
   }
 
   const filtered = tierStats.filter(p => parseInt(p['GP'] || 0) >= minGP);
+  const sortColDef = STAT_COLS.find(c => c.key === sortCol);
   const sorted = [...filtered].sort((a, b) => {
-    const va = parseFloat(a[sortCol] || 0);
-    const vb = parseFloat(b[sortCol] || 0);
+    const va = computeStat(a, sortCol, perGame, sortColDef);
+    const vb = computeStat(b, sortCol, perGame, sortColDef);
     return sortDir === 'desc' ? vb - va : va - vb;
   });
 
@@ -155,7 +166,7 @@ export default function TierStats({ tier }) {
                       key={c.key}
                       style={{ padding: '8px 6px', textAlign: 'center', color: sortCol === c.key ? '#e2e8f0' : '#94a3b8', fontWeight: sortCol === c.key ? 600 : 400 }}
                     >
-                      {formatStat(player[c.key], c.decimals)}
+                      {formatStat(computeStat(player, c.key, perGame, c), c.decimals)}
                     </td>
                   ))}
                 </tr>

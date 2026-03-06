@@ -105,7 +105,7 @@ function parseStandingsTab(rows) {
       divW: r[19] ? parseInt(r[19]) : null,
       divL: r[20] ? parseInt(r[20]) : null,
       divGb: r[21] || '--',
-      last20: r[30] || '',
+      last20: r[29] || '',
       roster: [r[33], r[34], r[35], r[36]].filter(Boolean),
     };
     // Dedup by name (conference sub-tables repeat teams)

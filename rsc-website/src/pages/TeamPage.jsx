@@ -26,10 +26,19 @@ const PG_COLS = [
   { key: 'SvPG', label: 'SVPG', decimals: 2 },
   { key: 'ShPG', label: 'SHPG', decimals: 2 },
   { key: 'Shot %', label: 'SH%', decimals: 2 },
-  { key: 'DI', label: 'DI', decimals: 2 },
-  { key: 'DT', label: 'DT', decimals: 2 },
+  { key: 'DI', label: 'DIPG', decimals: 2, perGame: true },
+  { key: 'DT', label: 'DTPG', decimals: 2, perGame: true },
   { key: 'RPV', label: 'RPV', decimals: 2 },
 ];
+
+function computeStat(player, key, perGame, colDef) {
+  if (perGame && colDef?.perGame) {
+    const gp = parseFloat(player['GP'] || 0);
+    const raw = parseFloat(player[key] || 0);
+    return gp > 0 ? raw / gp : 0;
+  }
+  return parseFloat(player[key] || 0);
+}
 
 const TABS = ['roster', 'stats', 'schedule'];
 
@@ -155,7 +164,7 @@ export default function TeamPage() {
 
       {activeTab === 'roster' && <RosterTab players={players} />}
       {activeTab === 'stats' && <StatsTab stats={teamStats} teamName={teamDisplayName} />}
-      {activeTab === 'schedule' && <ScheduleTab schedule={teamSchedule} teamName={teamDisplayName} />}
+      {activeTab === 'schedule' && <ScheduleTab schedule={teamSchedule} teamName={teamDisplayName} franchises={franchises} />}
     </div>
   );
 }
@@ -180,12 +189,12 @@ function RosterTab({ players }) {
             <th className="py-2.5 px-4 text-left">Player</th>
             <th className="py-2.5 px-3 text-center">MMR</th>
             <th className="py-2.5 px-3 text-center hidden md:table-cell">Status</th>
-            <th className="py-2.5 px-3 text-center hidden md:table-cell">Waiver End</th>
           </tr>
         </thead>
         <tbody>
           {players.map((c, i) => {
-            const isIR = c['Contract Status'] === 'IR' || c['Contract Status'] === 'AR';
+            const isIR = c['Contract Status'] === 'Inactive Reserve' || c['Contract Status'] === 'AGM IR';
+            const isAGMIR = c['Contract Status'] === 'AGM IR';
             const isCaptain = c['Captain'] === 'TRUE';
             return (
               <tr key={c['RSC ID'] || c['Player Name']} style={{ borderBottom: '1px solid #1e293b', background: i % 2 === 0 ? '#1e293b44' : 'transparent' }} className="hover:bg-slate-800">
@@ -195,17 +204,14 @@ function RosterTab({ players }) {
                       {c['Player Name']}
                     </Link>
                     {isCaptain && <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#b4530033', color: '#f59e0b', fontWeight: 700 }}>C</span>}
-                    {isIR && <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>IR</span>}
+                    {isIR && <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>{isAGMIR ? 'AGM IR' : 'IR'}</span>}
                   </div>
                 </td>
                 <td className="py-3 px-3 text-center text-slate-300">{c['Base MMR'] || '—'}</td>
                 <td className="py-3 px-3 text-center hidden md:table-cell">
                   <span style={{ fontSize: 11, padding: '2px 6px', borderRadius: 4, background: isIR ? '#ef444422' : '#16a34a22', color: isIR ? '#f87171' : '#4ade80' }}>
-                    {isIR ? 'IR' : c['Contract Status'] || 'Active'}
+                    {isAGMIR ? 'AGM IR' : isIR ? 'IR' : c['Contract Status'] || 'Active'}
                   </span>
-                </td>
-                <td className="py-3 px-3 text-center text-slate-500 text-xs hidden md:table-cell">
-                  {c['Waiver End'] ? new Date(c['Waiver End']).toLocaleDateString() : '—'}
                 </td>
               </tr>
             );
@@ -260,7 +266,7 @@ function StatsTab({ stats, teamName }) {
                     {s['Name']}
                   </Link>
                 </td>
-                {cols.map(c => <td key={c.key} className="py-2.5 px-2 text-center text-slate-300">{formatStat(s[c.key], c.decimals)}</td>)}
+                {cols.map(c => <td key={c.key} className="py-2.5 px-2 text-center text-slate-300">{formatStat(computeStat(s, c.key, perGame, c), c.decimals)}</td>)}
               </tr>
             ))}
           </tbody>
@@ -270,7 +276,20 @@ function StatsTab({ stats, teamName }) {
   );
 }
 
-function ScheduleTab({ schedule, teamName }) {
+function TeamLogo({ teamName, franchises }) {
+  const franchise = franchises?.find(f => f.teams?.some(t => t.name === teamName));
+  if (!franchise) return null;
+  return (
+    <img
+      src={getFranchiseLogo(franchise)}
+      alt=""
+      style={{ width: 20, height: 20, objectFit: 'contain', flexShrink: 0 }}
+      onError={e => e.target.style.display = 'none'}
+    />
+  );
+}
+
+function ScheduleTab({ schedule, teamName, franchises }) {
   if (!schedule.length) return <div className="text-slate-400 text-center py-10">No schedule data found.</div>;
 
   return (
@@ -299,17 +318,23 @@ function ScheduleTab({ schedule, teamName }) {
                   <td className="py-2.5 px-4 text-slate-400">{day.label}</td>
                   <td className="py-2.5 px-3 text-slate-500 text-xs hidden sm:table-cell">{day.date}</td>
                   <td className="py-2.5 px-3 text-right">
-                    <Link to={`/team/${toSlug(g.away)}`} className={`hover:text-sky-400 transition-colors font-medium ${g.away === teamName ? 'text-white' : 'text-slate-400'}`}>
-                      {g.away}
-                    </Link>
+                    <div className="flex items-center justify-end gap-1.5">
+                      <Link to={`/team/${toSlug(g.away)}`} className={`hover:text-sky-400 transition-colors font-medium ${g.away === teamName ? 'text-white' : 'text-slate-400'}`}>
+                        {g.away}
+                      </Link>
+                      <TeamLogo teamName={g.away} franchises={franchises} />
+                    </div>
                   </td>
                   <td className="py-2.5 px-3 text-center font-bold" style={{ color: g.played ? '#0ea5e9' : '#475569' }}>
                     {g.played ? `${g.awayScore} – ${g.homeScore}` : 'vs'}
                   </td>
                   <td className="py-2.5 px-3">
-                    <Link to={`/team/${toSlug(g.home)}`} className={`hover:text-sky-400 transition-colors font-medium ${g.home === teamName ? 'text-white' : 'text-slate-400'}`}>
-                      {g.home}
-                    </Link>
+                    <div className="flex items-center gap-1.5">
+                      <TeamLogo teamName={g.home} franchises={franchises} />
+                      <Link to={`/team/${toSlug(g.home)}`} className={`hover:text-sky-400 transition-colors font-medium ${g.home === teamName ? 'text-white' : 'text-slate-400'}`}>
+                        {g.home}
+                      </Link>
+                    </div>
                   </td>
                   <td className="py-2.5 px-3 text-center hidden md:table-cell">
                     {g.played && (
