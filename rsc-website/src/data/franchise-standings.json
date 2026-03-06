@@ -1,0 +1,1834 @@
+[
+  {
+    "name": "Fifty-Fifty Pizzeria",
+    "gm": "Alextross",
+    "conference": "Solar",
+    "overallRank": 1,
+    "franchiseScore": 63.39,
+    "teams": 7,
+    "seasonWP": 0.634,
+    "seasonW": 213,
+    "seasonL": 123,
+    "playoffTeams": 6,
+    "tierStandings": {
+      "Elite": {
+        "team": "Gelato",
+        "rank": 3,
+        "wp": 0.688,
+        "w": 33,
+        "l": 15,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Cannoli",
+        "rank": 23,
+        "wp": 0.396,
+        "w": 19,
+        "l": 29,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Hot Wings",
+        "rank": 4,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Meat Lovers",
+        "rank": 2,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Hawaiian Pizza",
+        "rank": 1,
+        "wp": 0.75,
+        "w": 36,
+        "l": 12,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Cheese Pizza",
+        "rank": 2,
+        "wp": 0.708,
+        "w": 34,
+        "l": 14,
+        "playoffs": "In"
+      },
+      "Amateur": {
+        "team": "Garlic Knots",
+        "rank": 1,
+        "wp": 0.667,
+        "w": 32,
+        "l": 16,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "The Rising",
+    "gm": "PoupSoup",
+    "conference": "Solar",
+    "overallRank": 2,
+    "franchiseScore": 60.71,
+    "teams": 7,
+    "seasonWP": 0.607,
+    "seasonW": 204,
+    "seasonL": 132,
+    "playoffTeams": 7,
+    "tierStandings": {
+      "Master": {
+        "team": "Olympic Knights",
+        "rank": 5,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Peerless Scarred",
+        "rank": 6,
+        "wp": 0.604,
+        "w": 29,
+        "l": 19,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Sons of Ares",
+        "rank": 6,
+        "wp": 0.604,
+        "w": 29,
+        "l": 19,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Howlers",
+        "rank": 1,
+        "wp": 0.854,
+        "w": 41,
+        "l": 7,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Dustwalkers",
+        "rank": 7,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Red Legion",
+        "rank": 9,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Helldivers",
+        "rank": 7,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "Tyrants of the Sea",
+    "gm": "dyl",
+    "conference": "Lunar",
+    "overallRank": 3,
+    "franchiseScore": 59.82,
+    "teams": 7,
+    "seasonWP": 0.598,
+    "seasonW": 201,
+    "seasonL": 135,
+    "playoffTeams": 6,
+    "tierStandings": {
+      "Elite": {
+        "team": "Krakens",
+        "rank": 6,
+        "wp": 0.604,
+        "w": 29,
+        "l": 19,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Giant Squids",
+        "rank": 7,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Barracudas",
+        "rank": 13,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Stingrays",
+        "rank": 21,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Piranhas",
+        "rank": 5,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Jellyfish",
+        "rank": 1,
+        "wp": 0.813,
+        "w": 39,
+        "l": 9,
+        "playoffs": "In"
+      },
+      "Amateur": {
+        "team": "Electric Eels",
+        "rank": 2,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "The King's Court",
+    "gm": "x ARC Fives x",
+    "conference": "Lunar",
+    "overallRank": 4,
+    "franchiseScore": 58.04,
+    "teams": 7,
+    "seasonWP": 0.58,
+    "seasonW": 195,
+    "seasonL": 141,
+    "playoffTeams": 5,
+    "tierStandings": {
+      "Master": {
+        "team": "Diplomats",
+        "rank": 1,
+        "wp": 0.729,
+        "w": 35,
+        "l": 13,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Commanders",
+        "rank": 12,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Mages",
+        "rank": 15,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Guards",
+        "rank": 19,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Scribes",
+        "rank": 5,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Merchants",
+        "rank": 5,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Jesters",
+        "rank": 5,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "Shark Attack",
+    "gm": "bradyK-",
+    "conference": "Lunar",
+    "overallRank": 5,
+    "franchiseScore": 52.08,
+    "teams": 6,
+    "seasonWP": 0.521,
+    "seasonW": 150,
+    "seasonL": 138,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Premier": {
+        "team": "Megalodons",
+        "rank": 8,
+        "wp": 0.292,
+        "w": 14,
+        "l": 34,
+        "playoffs": "Out"
+      },
+      "Master": {
+        "team": "Helicoprions",
+        "rank": 11,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Great Whites",
+        "rank": 19,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Makos",
+        "rank": 3,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Hammerheads",
+        "rank": 3,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Threshers",
+        "rank": 1,
+        "wp": 0.688,
+        "w": 33,
+        "l": 15,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "Art Club",
+    "gm": "Irishhhh",
+    "conference": "Lunar",
+    "overallRank": 5,
+    "franchiseScore": 52.08,
+    "teams": 6,
+    "seasonWP": 0.521,
+    "seasonW": 150,
+    "seasonL": 138,
+    "playoffTeams": 4,
+    "tierStandings": {
+      "Elite": {
+        "team": "Pixel Picassos",
+        "rank": 10,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Mosaic Maestros",
+        "rank": 13,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Hue Heroes",
+        "rank": 13,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Chromatic Chaos",
+        "rank": 24,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Prism Proteges",
+        "rank": 3,
+        "wp": 0.688,
+        "w": 33,
+        "l": 15,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Gallery Guild",
+        "rank": 8,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Mythical",
+    "gm": "Hawkish",
+    "conference": "Solar",
+    "overallRank": 5,
+    "franchiseScore": 52.08,
+    "teams": 7,
+    "seasonWP": 0.521,
+    "seasonW": 175,
+    "seasonL": 161,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Master": {
+        "team": "Leviathans",
+        "rank": 9,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Reapers",
+        "rank": 4,
+        "wp": 0.667,
+        "w": 32,
+        "l": 16,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Werewolves",
+        "rank": 10,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Dracos",
+        "rank": 20,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Hydras",
+        "rank": 17,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Fairies",
+        "rank": 7,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Sirens",
+        "rank": 8,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Shadows",
+    "gm": "iargue",
+    "conference": "Lunar",
+    "overallRank": 8,
+    "franchiseScore": 51.74,
+    "teams": 6,
+    "seasonWP": 0.517,
+    "seasonW": 149,
+    "seasonL": 139,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Master": {
+        "team": "Nightmare",
+        "rank": 15,
+        "wp": 0.292,
+        "w": 14,
+        "l": 34,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Despair",
+        "rank": 16,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Dread",
+        "rank": 2,
+        "wp": 0.667,
+        "w": 32,
+        "l": 16,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Nightfall",
+        "rank": 4,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Shade",
+        "rank": 2,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Gloom",
+        "rank": 12,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "World Warriors",
+    "gm": "CarnageWolfBite",
+    "conference": "Lunar",
+    "overallRank": 8,
+    "franchiseScore": 51.74,
+    "teams": 6,
+    "seasonWP": 0.517,
+    "seasonW": 149,
+    "seasonL": 139,
+    "playoffTeams": 4,
+    "tierStandings": {
+      "Elite": {
+        "team": "Immortals",
+        "rank": 17,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Berserkers",
+        "rank": 10,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Samurai",
+        "rank": 10,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Valkyrie",
+        "rank": 19,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Crusaders",
+        "rank": 9,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Templars",
+        "rank": 4,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "The Shrine",
+    "gm": "Dondo RF",
+    "conference": "Solar",
+    "overallRank": 10,
+    "franchiseScore": 51.49,
+    "teams": 7,
+    "seasonWP": 0.515,
+    "seasonW": 173,
+    "seasonL": 163,
+    "playoffTeams": 5,
+    "tierStandings": {
+      "Elite": {
+        "team": "Orochi",
+        "rank": 5,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Kirin",
+        "rank": 7,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Kitsune",
+        "rank": 13,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Ryujin",
+        "rank": 10,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Tanuki",
+        "rank": 2,
+        "wp": 0.708,
+        "w": 34,
+        "l": 14,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Kappa",
+        "rank": 11,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Amateur": {
+        "team": "Nekomata",
+        "rank": 8,
+        "wp": 0.25,
+        "w": 12,
+        "l": 36,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Cosmos",
+    "gm": "LikeWisse",
+    "conference": "Lunar",
+    "overallRank": 11,
+    "franchiseScore": 51.39,
+    "teams": 6,
+    "seasonWP": 0.514,
+    "seasonW": 148,
+    "seasonL": 140,
+    "playoffTeams": 4,
+    "tierStandings": {
+      "Premier": {
+        "team": "Super Clusters",
+        "rank": 7,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      },
+      "Master": {
+        "team": "Andromeda",
+        "rank": 2,
+        "wp": 0.667,
+        "w": 32,
+        "l": 16,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Black-Holes",
+        "rank": 10,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Supernova",
+        "rank": 7,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Quasars",
+        "rank": 10,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Blitzars",
+        "rank": 21,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Bear Den",
+    "gm": "VickyViksta",
+    "conference": "Solar",
+    "overallRank": 12,
+    "franchiseScore": 51.04,
+    "teams": 6,
+    "seasonWP": 0.51,
+    "seasonW": 147,
+    "seasonL": 141,
+    "playoffTeams": 2,
+    "tierStandings": {
+      "Premier": {
+        "team": "Gummy Bears",
+        "rank": 6,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Master": {
+        "team": "Care Bears",
+        "rank": 8,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Teddy Bears",
+        "rank": 6,
+        "wp": 0.604,
+        "w": 29,
+        "l": 19,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Grizzly Bears",
+        "rank": 21,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Polar Bears",
+        "rank": 6,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Panda Bears",
+        "rank": 14,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Jungle",
+    "gm": "Heyzisthename",
+    "conference": "Solar",
+    "overallRank": 12,
+    "franchiseScore": 51.04,
+    "teams": 6,
+    "seasonWP": 0.51,
+    "seasonW": 147,
+    "seasonL": 141,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Premier": {
+        "team": "Capybaras",
+        "rank": 3,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      },
+      "Master": {
+        "team": "Lemurs",
+        "rank": 14,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Sloths",
+        "rank": 15,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Gorillas",
+        "rank": 10,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Ocelots",
+        "rank": 17,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Toucans",
+        "rank": 8,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "Mythspire",
+    "gm": "Casca .",
+    "conference": "Solar",
+    "overallRank": 14,
+    "franchiseScore": 50.3,
+    "teams": 7,
+    "seasonWP": 0.503,
+    "seasonW": 169,
+    "seasonL": 167,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Elite": {
+        "team": "Dragon",
+        "rank": 19,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Gargoyle",
+        "rank": 17,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Phoenix",
+        "rank": 2,
+        "wp": 0.729,
+        "w": 35,
+        "l": 13,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Manticore",
+        "rank": 6,
+        "wp": 0.604,
+        "w": 29,
+        "l": 19,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Griffin",
+        "rank": 7,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Warg",
+        "rank": 15,
+        "wp": 0.313,
+        "w": 15,
+        "l": 33,
+        "playoffs": "Out"
+      },
+      "Amateur": {
+        "team": "Chimera",
+        "rank": 6,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Dwarf Haven",
+    "gm": "Gama The Dwarf",
+    "conference": "Lunar",
+    "overallRank": 15,
+    "franchiseScore": 49.31,
+    "teams": 6,
+    "seasonWP": 0.493,
+    "seasonW": 142,
+    "seasonL": 146,
+    "playoffTeams": 2,
+    "tierStandings": {
+      "Premier": {
+        "team": "Long Beards",
+        "rank": 1,
+        "wp": 0.667,
+        "w": 32,
+        "l": 16,
+        "playoffs": "In"
+      },
+      "Master": {
+        "team": "Battle Masters",
+        "rank": 11,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Forge Defenders",
+        "rank": 1,
+        "wp": 0.833,
+        "w": 40,
+        "l": 8,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Drunken Dwarfs",
+        "rank": 28,
+        "wp": 0.229,
+        "w": 11,
+        "l": 37,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Mining Legion",
+        "rank": 20,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Gold Hoarders",
+        "rank": 25,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Safari",
+    "gm": "MeOnDisplay",
+    "conference": "Solar",
+    "overallRank": 16,
+    "franchiseScore": 48.81,
+    "teams": 7,
+    "seasonWP": 0.488,
+    "seasonW": 164,
+    "seasonL": 172,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Elite": {
+        "team": "Elephants",
+        "rank": 27,
+        "wp": 0.271,
+        "w": 13,
+        "l": 35,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Giraffes",
+        "rank": 5,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Hippos",
+        "rank": 6,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Lions",
+        "rank": 18,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Honey Badgers",
+        "rank": 4,
+        "wp": 0.667,
+        "w": 32,
+        "l": 16,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Zebras",
+        "rank": 11,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Amateur": {
+        "team": "Dik-diks",
+        "rank": 5,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Pawverse",
+    "gm": "Dayz",
+    "conference": "Solar",
+    "overallRank": 17,
+    "franchiseScore": 48.61,
+    "teams": 6,
+    "seasonWP": 0.486,
+    "seasonW": 140,
+    "seasonL": 148,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Elite": {
+        "team": "Hellhounds",
+        "rank": 2,
+        "wp": 0.708,
+        "w": 34,
+        "l": 14,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Gutter Cats",
+        "rank": 3,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Purrgatory",
+        "rank": 26,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Thunder Pups",
+        "rank": 10,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Nibble Nightz",
+        "rank": 19,
+        "wp": 0.292,
+        "w": 14,
+        "l": 34,
+        "playoffs": "Out"
+      },
+      "Contender": {
+        "team": "Ankle Biters",
+        "rank": 11,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Shell Corp.",
+    "gm": "FerrisCrueller",
+    "conference": "Lunar",
+    "overallRank": 18,
+    "franchiseScore": 48.21,
+    "teams": 7,
+    "seasonWP": 0.482,
+    "seasonW": 162,
+    "seasonL": 174,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Elite": {
+        "team": "Embezzlers",
+        "rank": 26,
+        "wp": 0.313,
+        "w": 15,
+        "l": 33,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "White Collars",
+        "rank": 17,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Tax Evaders",
+        "rank": 23,
+        "wp": 0.396,
+        "w": 19,
+        "l": 29,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Insider Traders",
+        "rank": 2,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Hostile Takeover",
+        "rank": 14,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Contender": {
+        "team": "Ponzi Schemers",
+        "rank": 6,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Amateur": {
+        "team": "HR Violation",
+        "rank": 3,
+        "wp": 0.583,
+        "w": 28,
+        "l": 20,
+        "playoffs": "In"
+      }
+    }
+  },
+  {
+    "name": "Remove Before Flight",
+    "gm": "ShoddyWolfman",
+    "conference": "Lunar",
+    "overallRank": 18,
+    "franchiseScore": 48.21,
+    "teams": 7,
+    "seasonWP": 0.482,
+    "seasonW": 162,
+    "seasonL": 174,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Elite": {
+        "team": "Afterburners",
+        "rank": 24,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Dogfight",
+        "rank": 1,
+        "wp": 0.708,
+        "w": 34,
+        "l": 14,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Jets",
+        "rank": 6,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Warbirds",
+        "rank": 28,
+        "wp": 0.271,
+        "w": 13,
+        "l": 35,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Turbulence",
+        "rank": 14,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Contender": {
+        "team": "Aeronauts",
+        "rank": 3,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Amateur": {
+        "team": "Bombers",
+        "rank": 7,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Minty Fresh",
+    "gm": "Tinsel",
+    "conference": "Solar",
+    "overallRank": 20,
+    "franchiseScore": 47.92,
+    "teams": 6,
+    "seasonWP": 0.479,
+    "seasonW": 138,
+    "seasonL": 150,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Premier": {
+        "team": "Double Mint",
+        "rank": 2,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      },
+      "Master": {
+        "team": "Glacier Mint",
+        "rank": 7,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Menthol",
+        "rank": 22,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Peppermint",
+        "rank": 17,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Polar Ice",
+        "rank": 10,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Spearmint",
+        "rank": 25,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Syndicate",
+    "gm": "DrSkimMilk",
+    "conference": "Lunar",
+    "overallRank": 20,
+    "franchiseScore": 47.92,
+    "teams": 6,
+    "seasonWP": 0.479,
+    "seasonW": 138,
+    "seasonL": 150,
+    "playoffTeams": 2,
+    "tierStandings": {
+      "Premier": {
+        "team": "Crooked Capos",
+        "rank": 5,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "Out"
+      },
+      "Master": {
+        "team": "Heinous Henchmen",
+        "rank": 3,
+        "wp": 0.646,
+        "w": 31,
+        "l": 17,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Ghastly Goombahs",
+        "rank": 18,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Merciless Mob",
+        "rank": 26,
+        "wp": 0.292,
+        "w": 14,
+        "l": 34,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Ruthless Racket",
+        "rank": 6,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Apple Associates",
+        "rank": 19,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Elements",
+    "gm": "xEaglex20x",
+    "conference": "Solar",
+    "overallRank": 22,
+    "franchiseScore": 46.88,
+    "teams": 6,
+    "seasonWP": 0.469,
+    "seasonW": 135,
+    "seasonL": 153,
+    "playoffTeams": 3,
+    "tierStandings": {
+      "Elite": {
+        "team": "Fire",
+        "rank": 12,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Water",
+        "rank": 24,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Wind",
+        "rank": 22,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Metal",
+        "rank": 10,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Earth",
+        "rank": 9,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Contender": {
+        "team": "Surprise",
+        "rank": 8,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Pit",
+    "gm": "snugcore",
+    "conference": "Solar",
+    "overallRank": 23,
+    "franchiseScore": 46.18,
+    "teams": 6,
+    "seasonWP": 0.462,
+    "seasonW": 133,
+    "seasonL": 155,
+    "playoffTeams": 2,
+    "tierStandings": {
+      "Premier": {
+        "team": "Punks",
+        "rank": 4,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "Out"
+      },
+      "Master": {
+        "team": "Kawaii",
+        "rank": 16,
+        "wp": 0.25,
+        "w": 12,
+        "l": 36,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Thrashers",
+        "rank": 9,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Folks",
+        "rank": 16,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Heavy Metal",
+        "rank": 13,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "In"
+      },
+      "Challenger": {
+        "team": "Glams",
+        "rank": 21,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Mach Velocity",
+    "gm": "Squashy",
+    "conference": "Solar",
+    "overallRank": 24,
+    "franchiseScore": 43.75,
+    "teams": 6,
+    "seasonWP": 0.438,
+    "seasonW": 126,
+    "seasonL": 162,
+    "playoffTeams": 2,
+    "tierStandings": {
+      "Master": {
+        "team": "Blackbirds",
+        "rank": 5,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Raptors",
+        "rank": 12,
+        "wp": 0.521,
+        "w": 25,
+        "l": 23,
+        "playoffs": "In"
+      },
+      "Veteran": {
+        "team": "Nighthawks",
+        "rank": 25,
+        "wp": 0.313,
+        "w": 15,
+        "l": 33,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Lightning",
+        "rank": 23,
+        "wp": 0.396,
+        "w": 19,
+        "l": 29,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Warthogs",
+        "rank": 14,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Tomcats",
+        "rank": 18,
+        "wp": 0.333,
+        "w": 16,
+        "l": 32,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Sovereign",
+    "gm": "doctorprofessor_",
+    "conference": "Solar",
+    "overallRank": 25,
+    "franchiseScore": 42.56,
+    "teams": 7,
+    "seasonWP": 0.426,
+    "seasonW": 143,
+    "seasonL": 193,
+    "playoffTeams": 0,
+    "tierStandings": {
+      "Elite": {
+        "team": "Imperatores",
+        "rank": 24,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Legati",
+        "rank": 17,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Praetoriani",
+        "rank": 17,
+        "wp": 0.479,
+        "w": 23,
+        "l": 25,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Centuriones",
+        "rank": 14,
+        "wp": 0.5,
+        "w": 24,
+        "l": 24,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Decuriones",
+        "rank": 17,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Contender": {
+        "team": "Principales",
+        "rank": 16,
+        "wp": 0.271,
+        "w": 13,
+        "l": 35,
+        "playoffs": "Out"
+      },
+      "Amateur": {
+        "team": "Legionarii",
+        "rank": 4,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Grand Fleet",
+    "gm": "Envy",
+    "conference": "Solar",
+    "overallRank": 26,
+    "franchiseScore": 42.36,
+    "teams": 6,
+    "seasonWP": 0.424,
+    "seasonW": 122,
+    "seasonL": 166,
+    "playoffTeams": 1,
+    "tierStandings": {
+      "Master": {
+        "team": "Captains",
+        "rank": 11,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Swordsmen",
+        "rank": 27,
+        "wp": 0.271,
+        "w": 13,
+        "l": 35,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Navigators",
+        "rank": 21,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Liars",
+        "rank": 23,
+        "wp": 0.396,
+        "w": 19,
+        "l": 29,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Cooks",
+        "rank": 8,
+        "wp": 0.563,
+        "w": 27,
+        "l": 21,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Doctors",
+        "rank": 12,
+        "wp": 0.438,
+        "w": 21,
+        "l": 27,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "Venom Lab",
+    "gm": "1999 Toyota Camry",
+    "conference": "Lunar",
+    "overallRank": 27,
+    "franchiseScore": 41.32,
+    "teams": 6,
+    "seasonWP": 0.413,
+    "seasonW": 119,
+    "seasonL": 169,
+    "playoffTeams": 2,
+    "tierStandings": {
+      "Master": {
+        "team": "Eastern Brown",
+        "rank": 4,
+        "wp": 0.625,
+        "w": 30,
+        "l": 18,
+        "playoffs": "In"
+      },
+      "Elite": {
+        "team": "Forest Cobra",
+        "rank": 19,
+        "wp": 0.417,
+        "w": 20,
+        "l": 28,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Fer-de-Lance",
+        "rank": 27,
+        "wp": 0.271,
+        "w": 13,
+        "l": 35,
+        "playoffs": "Out"
+      },
+      "Rival": {
+        "team": "Gaboons",
+        "rank": 28,
+        "wp": 0.229,
+        "w": 11,
+        "l": 37,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Corals",
+        "rank": 10,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Prospect": {
+        "team": "Diamondback",
+        "rank": 16,
+        "wp": 0.396,
+        "w": 19,
+        "l": 29,
+        "playoffs": "Out"
+      }
+    }
+  },
+  {
+    "name": "The Monster Mash",
+    "gm": "FrostyBrew",
+    "conference": "Lunar",
+    "overallRank": 28,
+    "franchiseScore": 37.5,
+    "teams": 7,
+    "seasonWP": 0.375,
+    "seasonW": 126,
+    "seasonL": 210,
+    "playoffTeams": 1,
+    "tierStandings": {
+      "Master": {
+        "team": "Spectres",
+        "rank": 9,
+        "wp": 0.458,
+        "w": 22,
+        "l": 26,
+        "playoffs": "Out"
+      },
+      "Elite": {
+        "team": "Demons",
+        "rank": 22,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      },
+      "Veteran": {
+        "team": "Banshees",
+        "rank": 13,
+        "wp": 0.542,
+        "w": 26,
+        "l": 22,
+        "playoffs": "In"
+      },
+      "Rival": {
+        "team": "Phantoms",
+        "rank": 27,
+        "wp": 0.313,
+        "w": 15,
+        "l": 33,
+        "playoffs": "Out"
+      },
+      "Challenger": {
+        "team": "Zombies",
+        "rank": 25,
+        "wp": 0.354,
+        "w": 17,
+        "l": 31,
+        "playoffs": "Out"
+      },
+      "Prospect": {
+        "team": "Skeletons",
+        "rank": 20,
+        "wp": 0.208,
+        "w": 10,
+        "l": 38,
+        "playoffs": "Out"
+      },
+      "Contender": {
+        "team": "Wisps",
+        "rank": 11,
+        "wp": 0.375,
+        "w": 18,
+        "l": 30,
+        "playoffs": "Out"
+      }
+    }
+  }
+]

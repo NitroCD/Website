@@ -1,0 +1,1890 @@
+[
+  {
+    "id": 32,
+    "name": "Dwarf Haven",
+    "prefix": "DWF",
+    "gm": {
+      "rsc_name": "Gama The Dwarf",
+      "discord_id": 444636429369213000
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 189,
+        "name": "Forge Defenders"
+      },
+      {
+        "id": 190,
+        "name": "Drunken Dwarfs"
+      },
+      {
+        "id": 191,
+        "name": "Mining Legion"
+      },
+      {
+        "id": 188,
+        "name": "Battle Masters"
+      },
+      {
+        "id": 362,
+        "name": "Long Beards"
+      },
+      {
+        "id": 315,
+        "name": "Gold Hoarders"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/32/Dwarf_Haven.png"
+  },
+  {
+    "id": 14,
+    "name": "Shark Attack",
+    "prefix": "SHA",
+    "gm": {
+      "rsc_name": "bradyK-",
+      "discord_id": 483113093421858800
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Premier",
+        "id": 1
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 82,
+        "name": "Great Whites"
+      },
+      {
+        "id": 83,
+        "name": "Makos"
+      },
+      {
+        "id": 84,
+        "name": "Hammerheads"
+      },
+      {
+        "id": 85,
+        "name": "Threshers"
+      },
+      {
+        "id": 199,
+        "name": "Helicoprions"
+      },
+      {
+        "id": 364,
+        "name": "Megalodons"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/14/Shark_Attack.png"
+  },
+  {
+    "id": 27,
+    "name": "Pawverse",
+    "prefix": "PAW",
+    "gm": {
+      "rsc_name": "Dayz",
+      "discord_id": 163496912362799100
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 160,
+        "name": "Purrgatory"
+      },
+      {
+        "id": 161,
+        "name": "Thunder Pups"
+      },
+      {
+        "id": 159,
+        "name": "Gutter Cats"
+      },
+      {
+        "id": 158,
+        "name": "Hellhounds"
+      },
+      {
+        "id": 370,
+        "name": "Nibble Nightz"
+      },
+      {
+        "id": 371,
+        "name": "Ankle Biters"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/27/Pawverse.png"
+  },
+  {
+    "id": 16,
+    "name": "The Rising",
+    "prefix": "TR",
+    "gm": {
+      "rsc_name": "PoupSoup",
+      "discord_id": 111228544041885700
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 95,
+        "name": "Peerless Scarred"
+      },
+      {
+        "id": 96,
+        "name": "Sons of Ares"
+      },
+      {
+        "id": 97,
+        "name": "Howlers"
+      },
+      {
+        "id": 98,
+        "name": "Dustwalkers"
+      },
+      {
+        "id": 365,
+        "name": "Olympic Knights"
+      },
+      {
+        "id": 366,
+        "name": "Red Legion"
+      },
+      {
+        "id": 367,
+        "name": "Helldivers"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/16/The_Rising_NUXKp61.png"
+  },
+  {
+    "id": 31,
+    "name": "Mach Velocity",
+    "prefix": "MV",
+    "gm": {
+      "rsc_name": "Squashy",
+      "discord_id": 174706925546504200
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 180,
+        "name": "Raptors"
+      },
+      {
+        "id": 181,
+        "name": "Nighthawks"
+      },
+      {
+        "id": 182,
+        "name": "Lightning"
+      },
+      {
+        "id": 183,
+        "name": "Warthogs"
+      },
+      {
+        "id": 339,
+        "name": "Blackbirds"
+      },
+      {
+        "id": 340,
+        "name": "Tomcats"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/31/Mach_Velocity.png"
+  },
+  {
+    "id": 17,
+    "name": "Grand Fleet",
+    "prefix": "GF",
+    "gm": {
+      "rsc_name": "Envy",
+      "discord_id": 263480093974855680
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 101,
+        "name": "Swordsmen"
+      },
+      {
+        "id": 102,
+        "name": "Navigators"
+      },
+      {
+        "id": 103,
+        "name": "Liars"
+      },
+      {
+        "id": 104,
+        "name": "Cooks"
+      },
+      {
+        "id": 337,
+        "name": "Captains"
+      },
+      {
+        "id": 338,
+        "name": "Doctors"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/17/Grand_Fleet_c2ziWYd.png"
+  },
+  {
+    "id": 9,
+    "name": "Art Club",
+    "prefix": "ART",
+    "gm": {
+      "rsc_name": "Irishhhh",
+      "discord_id": 56213226060263420
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 49,
+        "name": "Pixel Picassos"
+      },
+      {
+        "id": 50,
+        "name": "Mosaic Maestros"
+      },
+      {
+        "id": 51,
+        "name": "Hue Heroes"
+      },
+      {
+        "id": 52,
+        "name": "Chromatic Chaos"
+      },
+      {
+        "id": 360,
+        "name": "Prism Proteges"
+      },
+      {
+        "id": 361,
+        "name": "Gallery Guild"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/9/Art_Club_9WuWlU5.png"
+  },
+  {
+    "id": 13,
+    "name": "The Shadows",
+    "prefix": "<0>",
+    "gm": {
+      "rsc_name": "iargue",
+      "discord_id": 109051513384468480
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 76,
+        "name": "Despair"
+      },
+      {
+        "id": 77,
+        "name": "Dread"
+      },
+      {
+        "id": 78,
+        "name": "Nightfall"
+      },
+      {
+        "id": 311,
+        "name": "Shade"
+      },
+      {
+        "id": 368,
+        "name": "Nightmare"
+      },
+      {
+        "id": 369,
+        "name": "Gloom"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/13/The_Shadows.png"
+  },
+  {
+    "id": 18,
+    "name": "Mythspire",
+    "prefix": "MYS",
+    "gm": {
+      "rsc_name": "Casca .",
+      "discord_id": 448310988190777340
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 107,
+        "name": "Phoenix"
+      },
+      {
+        "id": 108,
+        "name": "Manticore"
+      },
+      {
+        "id": 109,
+        "name": "Griffin"
+      },
+      {
+        "id": 106,
+        "name": "Gargoyle"
+      },
+      {
+        "id": 341,
+        "name": "Warg"
+      },
+      {
+        "id": 313,
+        "name": "Dragon"
+      },
+      {
+        "id": 314,
+        "name": "Chimera"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/18/Mythspire.png"
+  },
+  {
+    "id": 10,
+    "name": "Minty Fresh",
+    "prefix": "MF",
+    "gm": {
+      "rsc_name": "Tinsel",
+      "discord_id": 257367764975616000
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Master",
+        "id": 2
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 58,
+        "name": "Menthol"
+      },
+      {
+        "id": 59,
+        "name": "Peppermint"
+      },
+      {
+        "id": 60,
+        "name": "Polar Ice"
+      },
+      {
+        "id": 61,
+        "name": "Spearmint"
+      },
+      {
+        "id": 344,
+        "name": "Double Mint"
+      },
+      {
+        "id": 345,
+        "name": "Glacier Mint"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/10/Minty_Fresh.png"
+  },
+  {
+    "id": 15,
+    "name": "The Syndicate",
+    "prefix": "SYN",
+    "gm": {
+      "rsc_name": "DrSkimMilk",
+      "discord_id": 314127656897478660
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 87,
+        "name": "Crooked Capos"
+      },
+      {
+        "id": 88,
+        "name": "Heinous Henchmen"
+      },
+      {
+        "id": 89,
+        "name": "Ghastly Goombahs"
+      },
+      {
+        "id": 90,
+        "name": "Merciless Mob"
+      },
+      {
+        "id": 91,
+        "name": "Ruthless Racket"
+      },
+      {
+        "id": 92,
+        "name": "Apple Associates"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/15/The_Syndicate.png"
+  },
+  {
+    "id": 19,
+    "name": "The Bear Den",
+    "prefix": "DEN",
+    "gm": {
+      "rsc_name": "VickyViksta",
+      "discord_id": 268935866557136900
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 112,
+        "name": "Gummy Bears"
+      },
+      {
+        "id": 113,
+        "name": "Care Bears"
+      },
+      {
+        "id": 114,
+        "name": "Teddy Bears"
+      },
+      {
+        "id": 115,
+        "name": "Grizzly Bears"
+      },
+      {
+        "id": 116,
+        "name": "Polar Bears"
+      },
+      {
+        "id": 117,
+        "name": "Panda Bears"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/19/The_Bear_Den.png"
+  },
+  {
+    "id": 11,
+    "name": "Shell Corp.",
+    "prefix": "SCO",
+    "gm": {
+      "rsc_name": "FerrisCrueller",
+      "discord_id": 657644967807811600
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 65,
+        "name": "Insider Traders"
+      },
+      {
+        "id": 63,
+        "name": "White Collars"
+      },
+      {
+        "id": 66,
+        "name": "Hostile Takeover"
+      },
+      {
+        "id": 68,
+        "name": "HR Violation"
+      },
+      {
+        "id": 64,
+        "name": "Tax Evaders"
+      },
+      {
+        "id": 299,
+        "name": "Embezzlers"
+      },
+      {
+        "id": 356,
+        "name": "Ponzi Schemers"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/11/Shell_Corp..png"
+  },
+  {
+    "id": 26,
+    "name": "The Monster Mash",
+    "prefix": "MON",
+    "gm": {
+      "rsc_name": "FrostyBrew",
+      "discord_id": 174024053143765000
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 151,
+        "name": "Demons"
+      },
+      {
+        "id": 152,
+        "name": "Banshees"
+      },
+      {
+        "id": 153,
+        "name": "Phantoms"
+      },
+      {
+        "id": 154,
+        "name": "Zombies"
+      },
+      {
+        "id": 155,
+        "name": "Skeletons"
+      },
+      {
+        "id": 273,
+        "name": "Spectres"
+      },
+      {
+        "id": 354,
+        "name": "Wisps"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/26/The_Monster_Mash.png"
+  },
+  {
+    "id": 4,
+    "name": "The King's Court",
+    "prefix": "TKC",
+    "gm": {
+      "rsc_name": "x ARC Fives x",
+      "discord_id": 419517435306049540
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 23,
+        "name": "Guards"
+      },
+      {
+        "id": 21,
+        "name": "Commanders"
+      },
+      {
+        "id": 22,
+        "name": "Mages"
+      },
+      {
+        "id": 322,
+        "name": "Scribes"
+      },
+      {
+        "id": 357,
+        "name": "Merchants"
+      },
+      {
+        "id": 358,
+        "name": "Diplomats"
+      },
+      {
+        "id": 359,
+        "name": "Jesters"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/4/The_Kings_Court.png"
+  },
+  {
+    "id": 21,
+    "name": "The Elements",
+    "prefix": "ELE",
+    "gm": {
+      "rsc_name": "xEaglex20x",
+      "discord_id": 699120835851714600
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 124,
+        "name": "Water"
+      },
+      {
+        "id": 125,
+        "name": "Wind"
+      },
+      {
+        "id": 126,
+        "name": "Metal"
+      },
+      {
+        "id": 127,
+        "name": "Earth"
+      },
+      {
+        "id": 304,
+        "name": "Fire"
+      },
+      {
+        "id": 346,
+        "name": "Surprise"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/21/The_Elements.png"
+  },
+  {
+    "id": 12,
+    "name": "Tyrants of the Sea",
+    "prefix": "FSH",
+    "gm": {
+      "rsc_name": "dyl",
+      "discord_id": 168589771709480960
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 71,
+        "name": "Barracudas"
+      },
+      {
+        "id": 70,
+        "name": "Giant Squids"
+      },
+      {
+        "id": 72,
+        "name": "Stingrays"
+      },
+      {
+        "id": 73,
+        "name": "Piranhas"
+      },
+      {
+        "id": 318,
+        "name": "Krakens"
+      },
+      {
+        "id": 280,
+        "name": "Electric Eels"
+      },
+      {
+        "id": 351,
+        "name": "Jellyfish"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/12/Tyrants_of_the_Sea.png"
+  },
+  {
+    "id": 3,
+    "name": "Venom Lab",
+    "prefix": "VL",
+    "gm": {
+      "rsc_name": "1999 Toyota Camry",
+      "discord_id": 264215983596634100
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 18,
+        "name": "Gaboons"
+      },
+      {
+        "id": 19,
+        "name": "Corals"
+      },
+      {
+        "id": 17,
+        "name": "Fer-de-Lance"
+      },
+      {
+        "id": 16,
+        "name": "Forest Cobra"
+      },
+      {
+        "id": 352,
+        "name": "Eastern Brown"
+      },
+      {
+        "id": 353,
+        "name": "Diamondback"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/3/Venom_Lab.png"
+  },
+  {
+    "id": 24,
+    "name": "The Cosmos",
+    "prefix": "COS",
+    "gm": {
+      "rsc_name": "LikeWisse",
+      "discord_id": 503337759730040800
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 142,
+        "name": "Supernova"
+      },
+      {
+        "id": 143,
+        "name": "Quasars"
+      },
+      {
+        "id": 141,
+        "name": "Black-Holes"
+      },
+      {
+        "id": 307,
+        "name": "Super Clusters"
+      },
+      {
+        "id": 308,
+        "name": "Andromeda"
+      },
+      {
+        "id": 332,
+        "name": "Blitzars"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/24/The_Cosmos_YfnbJz6.png"
+  },
+  {
+    "id": 5,
+    "name": "The Pit",
+    "prefix": "ImI",
+    "gm": {
+      "rsc_name": "snugcore",
+      "discord_id": 135470760675246080
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Master",
+        "id": 2
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 26,
+        "name": "Thrashers"
+      },
+      {
+        "id": 27,
+        "name": "Folks"
+      },
+      {
+        "id": 28,
+        "name": "Heavy Metal"
+      },
+      {
+        "id": 326,
+        "name": "Glams"
+      },
+      {
+        "id": 305,
+        "name": "Punks"
+      },
+      {
+        "id": 306,
+        "name": "Kawaii"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/5/The_Pit.png"
+  },
+  {
+    "id": 25,
+    "name": "The Jungle",
+    "prefix": "JNG",
+    "gm": {
+      "rsc_name": "Heyzisthename",
+      "discord_id": 237016844760907780
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Premier",
+        "id": 1
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 145,
+        "name": "Capybaras"
+      },
+      {
+        "id": 146,
+        "name": "Lemurs"
+      },
+      {
+        "id": 147,
+        "name": "Sloths"
+      },
+      {
+        "id": 148,
+        "name": "Gorillas"
+      },
+      {
+        "id": 149,
+        "name": "Ocelots"
+      },
+      {
+        "id": 150,
+        "name": "Toucans"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/25/The_Jungle_CzlXN9O.png"
+  },
+  {
+    "id": 22,
+    "name": "Mythical",
+    "prefix": "MYT",
+    "gm": {
+      "rsc_name": "Hawkish",
+      "discord_id": 438856203901075460
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Master",
+        "id": 2
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 134,
+        "name": "Hydras"
+      },
+      {
+        "id": 133,
+        "name": "Dracos"
+      },
+      {
+        "id": 130,
+        "name": "Leviathans"
+      },
+      {
+        "id": 131,
+        "name": "Reapers"
+      },
+      {
+        "id": 132,
+        "name": "Werewolves"
+      },
+      {
+        "id": 335,
+        "name": "Fairies"
+      },
+      {
+        "id": 336,
+        "name": "Sirens"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/22/Mythical.png"
+  },
+  {
+    "id": 8,
+    "name": "Safari",
+    "prefix": "SAF",
+    "gm": {
+      "rsc_name": "MeOnDisplay",
+      "discord_id": 324636210872188900
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 48,
+        "name": "Lions"
+      },
+      {
+        "id": 47,
+        "name": "Hippos"
+      },
+      {
+        "id": 46,
+        "name": "Giraffes"
+      },
+      {
+        "id": 196,
+        "name": "Honey Badgers"
+      },
+      {
+        "id": 319,
+        "name": "Elephants"
+      },
+      {
+        "id": 342,
+        "name": "Zebras"
+      },
+      {
+        "id": 343,
+        "name": "Dik-diks"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/8/Safari.png"
+  },
+  {
+    "id": 29,
+    "name": "The Sovereign",
+    "prefix": "SOV",
+    "gm": {
+      "rsc_name": "doctorprofessor_",
+      "discord_id": 498623167171002400
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 169,
+        "name": "Legati"
+      },
+      {
+        "id": 170,
+        "name": "Praetoriani"
+      },
+      {
+        "id": 171,
+        "name": "Centuriones"
+      },
+      {
+        "id": 168,
+        "name": "Imperatores"
+      },
+      {
+        "id": 276,
+        "name": "Decuriones"
+      },
+      {
+        "id": 347,
+        "name": "Principales"
+      },
+      {
+        "id": 328,
+        "name": "Legionarii"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/29/The_Sovereign_E05K5jD.png"
+  },
+  {
+    "id": 23,
+    "name": "The Shrine",
+    "prefix": "SHR",
+    "gm": {
+      "rsc_name": "Dondo RF",
+      "discord_id": 333278192003448800
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 137,
+        "name": "Orochi"
+      },
+      {
+        "id": 138,
+        "name": "Kirin"
+      },
+      {
+        "id": 139,
+        "name": "Kitsune"
+      },
+      {
+        "id": 329,
+        "name": "Tanuki"
+      },
+      {
+        "id": 309,
+        "name": "Ryujin"
+      },
+      {
+        "id": 348,
+        "name": "Kappa"
+      },
+      {
+        "id": 334,
+        "name": "Nekomata"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/23/The_Shrine.png"
+  },
+  {
+    "id": 28,
+    "name": "World Warriors",
+    "prefix": "WW",
+    "gm": {
+      "rsc_name": "CarnageWolfBite",
+      "discord_id": 525395505027743740
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 163,
+        "name": "Immortals"
+      },
+      {
+        "id": 165,
+        "name": "Samurai"
+      },
+      {
+        "id": 166,
+        "name": "Valkyrie"
+      },
+      {
+        "id": 164,
+        "name": "Berserkers"
+      },
+      {
+        "id": 349,
+        "name": "Crusaders"
+      },
+      {
+        "id": 350,
+        "name": "Templars"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/28/World_Warriors.png"
+  },
+  {
+    "id": 6,
+    "name": "Remove Before Flight",
+    "prefix": "RBF",
+    "gm": {
+      "rsc_name": "ShoddyWolfman",
+      "discord_id": 529046986897489900
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      },
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 34,
+        "name": "Afterburners"
+      },
+      {
+        "id": 36,
+        "name": "Jets"
+      },
+      {
+        "id": 37,
+        "name": "Warbirds"
+      },
+      {
+        "id": 323,
+        "name": "Turbulence"
+      },
+      {
+        "id": 355,
+        "name": "Aeronauts"
+      },
+      {
+        "id": 325,
+        "name": "Dogfight"
+      },
+      {
+        "id": 324,
+        "name": "Bombers"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/6/Remove_Before_Flight.png"
+  },
+  {
+    "id": 7,
+    "name": "Fifty-Fifty Pizzeria",
+    "prefix": "50",
+    "gm": {
+      "rsc_name": "Alextross",
+      "discord_id": 483449696157958140
+    },
+    "league": 1,
+    "tiers": [
+      {
+        "name": "Veteran",
+        "id": 4
+      },
+      {
+        "name": "Rival",
+        "id": 5
+      },
+      {
+        "name": "Challenger",
+        "id": 6
+      },
+      {
+        "name": "Prospect",
+        "id": 7
+      },
+      {
+        "name": "Amateur",
+        "id": 9
+      },
+      {
+        "name": "Elite",
+        "id": 3
+      },
+      {
+        "name": "Contender",
+        "id": 8
+      }
+    ],
+    "active": true,
+    "teams": [
+      {
+        "id": 39,
+        "name": "Cannoli"
+      },
+      {
+        "id": 40,
+        "name": "Hot Wings"
+      },
+      {
+        "id": 41,
+        "name": "Meat Lovers"
+      },
+      {
+        "id": 42,
+        "name": "Hawaiian Pizza"
+      },
+      {
+        "id": 44,
+        "name": "Garlic Knots"
+      },
+      {
+        "id": 317,
+        "name": "Gelato"
+      },
+      {
+        "id": 363,
+        "name": "Cheese Pizza"
+      }
+    ],
+    "logo": "https://api.rscna.com/media/franchises/7/Fifty-Fifty_Pizzeria.png"
+  }
+]
