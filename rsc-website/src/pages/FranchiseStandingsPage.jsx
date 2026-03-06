@@ -21,16 +21,16 @@ export default function FranchiseStandingsPage() {
               <tr style={{ background: '#162032', borderBottom: '1px solid #334155', color: '#64748b' }}>
                 <th className="py-3 px-3 text-left w-8">#</th>
                 <th className="py-3 px-3 text-left min-w-48">Franchise</th>
-                <th className="py-3 px-2 text-center hidden sm:table-cell">CONF</th>
-                <th className="py-3 px-2 text-center">FS</th>
-                <th className="py-3 px-2 text-center">W</th>
-                <th className="py-3 px-2 text-center">L</th>
-                <th className="py-3 px-2 text-center hidden md:table-cell">WP</th>
-                <th className="py-3 px-2 text-center">PO</th>
+                <th className="py-3 px-2 text-center hidden sm:table-cell" title="Conference">CONF</th>
+                <th className="py-3 px-2 text-center" title="Franchise Score" style={{ cursor: 'help' }}>FS</th>
+                <th className="py-3 px-2 text-center" title="Wins">W</th>
+                <th className="py-3 px-2 text-center" title="Losses">L</th>
+                <th className="py-3 px-2 text-center hidden md:table-cell" title="Win Percentage">WP</th>
+                <th className="py-3 px-2 text-center" title="Teams in Playoffs" style={{ cursor: 'help' }}>PO</th>
                 {TIERS.map(t => (
                   <th key={t} className="py-3 px-2 text-center hidden xl:table-cell" style={{ minWidth: 80 }}>
                     <Link to={`/tier/${toSlug(t)}`} style={{ color: TIER_COLORS[t] }} className="hover:opacity-70">
-                      {t.substring(0, 4)}
+                      {t}
                     </Link>
                   </th>
                 ))}
