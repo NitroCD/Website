@@ -10852,7 +10852,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC004665",
@@ -10865,7 +10865,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC005707",
@@ -10878,7 +10878,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC005902",
@@ -10930,7 +10930,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC012914",
@@ -10943,7 +10943,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC012969",
@@ -10956,7 +10956,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013252",
@@ -10969,7 +10969,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013356",
@@ -11008,7 +11008,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013582",
@@ -11034,7 +11034,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013588",
@@ -11047,7 +11047,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013590",
@@ -11060,7 +11060,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013591",
@@ -11073,7 +11073,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013607",
@@ -11086,7 +11086,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013629",
@@ -11099,7 +11099,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013631",
@@ -11112,7 +11112,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013632",
@@ -11125,7 +11125,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013668",
@@ -11138,7 +11138,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013678",
@@ -11151,7 +11151,7 @@
     "Contract Length": "0",
     "Waiver End": "",
     "Tier": "",
-    "Captain": "FALSE"
+    "Captain": ""
   },
   {
     "RSC ID": "RSC002167",
@@ -11319,8 +11319,8 @@
     "Contract Status": "Permanent Free Agent",
     "Contract Length": "0",
     "Waiver End": "",
-    "Tier": "Premier",
-    "Captain": "FALSE"
+    "Tier": "",
+    "Captain": ""
   },
   {
     "RSC ID": "RSC000697",
@@ -11345,8 +11345,8 @@
     "Contract Status": "Permanent Free Agent",
     "Contract Length": "0",
     "Waiver End": "",
-    "Tier": "Master",
-    "Captain": "FALSE"
+    "Tier": "",
+    "Captain": ""
   },
   {
     "RSC ID": "RSC008068",
@@ -12112,8 +12112,8 @@
     "Contract Status": "Permanent Free Agent",
     "Contract Length": "0",
     "Waiver End": "",
-    "Tier": "Rival",
-    "Captain": "FALSE"
+    "Tier": "",
+    "Captain": ""
   },
   {
     "RSC ID": "RSC013163",
@@ -12190,8 +12190,8 @@
     "Contract Status": "Permanent Free Agent",
     "Contract Length": "0",
     "Waiver End": "",
-    "Tier": "Rival",
-    "Captain": "FALSE"
+    "Tier": "",
+    "Captain": ""
   },
   {
     "RSC ID": "RSC001358",
