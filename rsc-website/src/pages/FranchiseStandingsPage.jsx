@@ -2,6 +2,24 @@ import { Link } from 'react-router-dom';
 import { useData } from '../context/DataContext';
 import { toSlug, formatWP, getFranchiseLogo, TIERS, TIER_COLORS } from '../utils/dataUtils';
 
+function TH({ children, tooltip, className = '', style }) {
+  return (
+    <th className={`py-3 px-2 text-center relative group ${className}`} style={style}>
+      {children}
+      {tooltip && (
+        <span style={{
+          position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
+          marginBottom: 6, padding: '4px 8px', fontSize: 11, background: '#0f172a', color: '#e2e8f0',
+          borderRadius: 4, whiteSpace: 'nowrap', border: '1px solid #334155', zIndex: 20,
+          pointerEvents: 'none', transition: 'opacity 0.15s',
+        }} className="opacity-0 group-hover:opacity-100">
+          {tooltip}
+        </span>
+      )}
+    </th>
+  );
+}
+
 export default function FranchiseStandingsPage() {
   const { franchiseStandings, franchises } = useData();
 
@@ -21,12 +39,12 @@ export default function FranchiseStandingsPage() {
               <tr style={{ background: '#162032', borderBottom: '1px solid #334155', color: '#64748b' }}>
                 <th className="py-3 px-3 text-left w-8">#</th>
                 <th className="py-3 px-3 text-left min-w-48">Franchise</th>
-                <th className="py-3 px-2 text-center hidden sm:table-cell" title="Conference">CONF</th>
-                <th className="py-3 px-2 text-center" title="Franchise Score" style={{ cursor: 'help' }}>FS</th>
-                <th className="py-3 px-2 text-center" title="Wins">W</th>
-                <th className="py-3 px-2 text-center" title="Losses">L</th>
-                <th className="py-3 px-2 text-center hidden md:table-cell" title="Win Percentage">WP</th>
-                <th className="py-3 px-2 text-center" title="Teams in Playoffs" style={{ cursor: 'help' }}>PO</th>
+                <TH className="hidden sm:table-cell" tooltip="Conference">CONF</TH>
+                <TH tooltip="Franchise Score">FS</TH>
+                <TH>W</TH>
+                <TH>L</TH>
+                <TH className="hidden md:table-cell" tooltip="Win Percentage">WP</TH>
+                <TH tooltip="Teams in Playoffs">PO</TH>
                 {TIERS.map(t => (
                   <th key={t} className="py-3 px-2 text-center hidden xl:table-cell" style={{ minWidth: 80 }}>
                     <Link to={`/tier/${toSlug(t)}`} style={{ color: TIER_COLORS[t] }} className="hover:opacity-70">
