@@ -14,7 +14,8 @@ function TeamCard({ teamName, players }) {
       <div className="p-3">
         <div className="space-y-1">
           {players.map(p => {
-            const isIR = p['Contract Status'] === 'IR' || p['Contract Status'] === 'AR';
+            const isIR = p['Contract Status'] === 'Inactive Reserve' || p['Contract Status'] === 'AGM IR';
+            const isAGMIR = p['Contract Status'] === 'AGM IR';
             const isCaptain = p['Captain'] === 'TRUE';
             return (
               <div key={p['RSC ID'] || p['Player Name']} className="flex items-center gap-2 py-1">
@@ -25,7 +26,7 @@ function TeamCard({ teamName, players }) {
                   <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#b4530033', color: '#f59e0b', fontWeight: 700 }}>C</span>
                 )}
                 {isIR && (
-                  <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>IR</span>
+                  <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>{isAGMIR ? 'AGM IR' : 'IR'}</span>
                 )}
                 <span className="text-xs text-slate-500">{p['Base MMR']}</span>
               </div>

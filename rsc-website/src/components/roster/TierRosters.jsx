@@ -3,7 +3,8 @@ import { useData } from '../../context/DataContext';
 import { toSlug, getFranchiseLogo, getFranchiseForTeam } from '../../utils/dataUtils';
 
 function PlayerRow({ contract }) {
-  const isIR = contract['Contract Status'] === 'IR' || contract['Contract Status'] === 'AR';
+  const isIR = contract['Contract Status'] === 'Inactive Reserve' || contract['Contract Status'] === 'AGM IR';
+  const isAGMIR = contract['Contract Status'] === 'AGM IR';
   const isCaptain = contract['Captain'] === 'TRUE';
 
   return (
@@ -17,15 +18,11 @@ function PlayerRow({ contract }) {
             <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#b4530033', color: '#f59e0b', fontWeight: 700 }}>C</span>
           )}
           {isIR && (
-            <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>IR</span>
+            <span style={{ fontSize: 10, padding: '1px 5px', borderRadius: 3, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>{isAGMIR ? 'AGM IR' : 'IR'}</span>
           )}
         </div>
       </td>
       <td className="py-2.5 px-2 text-center text-slate-300">{contract['Base MMR'] || '—'}</td>
-      <td className="py-2.5 px-2 text-center text-slate-400">{contract['Contract Length'] || '—'}</td>
-      <td className="py-2.5 px-2 text-center text-slate-500 hidden md:table-cell text-xs">
-        {contract['Waiver End'] ? new Date(contract['Waiver End']).toLocaleDateString() : '—'}
-      </td>
     </tr>
   );
 }
@@ -60,8 +57,6 @@ function TeamCard({ teamName, players, franchise }) {
           <tr style={{ color: '#64748b', fontSize: 11, background: '#162032' }}>
             <th className="py-2 px-3 text-left">Player</th>
             <th className="py-2 px-2 text-center">MMR</th>
-            <th className="py-2 px-2 text-center">CTR</th>
-            <th className="py-2 px-2 text-center hidden md:table-cell">Waiver End</th>
           </tr>
         </thead>
         <tbody>
@@ -100,7 +95,7 @@ export default function TierRosters({ tier }) {
 
   return (
     <div>
-      <p className="text-slate-400 text-sm mb-4">{teams.length} teams · <span style={{ color: '#f59e0b' }}>C</span> = Captain · <span style={{ color: '#f87171' }}>IR</span> = Injured Reserve</p>
+      <p className="text-slate-400 text-sm mb-4">{teams.length} teams · <span style={{ color: '#f59e0b' }}>C</span> = Captain · <span style={{ color: '#f87171' }}>IR</span> = Injured Reserve · <span style={{ color: '#f87171' }}>AGM IR</span> = AGM Injured Reserve</p>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
         {teams.map(([teamName, players]) => {
           const franchise = getFranchiseForTeam(franchises, teamName);

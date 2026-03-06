@@ -50,7 +50,8 @@ export default function PlayerPage() {
 
   const tierName = contract?.['Tier'] || playerStats[0]?.['Tier'] || '';
   const tierColor = TIER_COLORS[tierName] || '#0ea5e9';
-  const isIR = contract?.['Contract Status'] === 'IR' || contract?.['Contract Status'] === 'AR';
+  const isIR = contract?.['Contract Status'] === 'Inactive Reserve' || contract?.['Contract Status'] === 'AGM IR';
+  const isAGMIR = contract?.['Contract Status'] === 'AGM IR';
   const isCaptain = contract?.['Captain'] === 'TRUE';
   const isFreeAgent = !franchiseName || FA_STATUSES.has(contract?.['Contract Status']);
 
@@ -81,7 +82,7 @@ export default function PlayerPage() {
               <h1 className="text-2xl font-bold text-white">{displayName}</h1>
               {isFreeAgent && <span style={{ fontSize: 12, padding: '2px 8px', borderRadius: 4, background: '#0ea5e922', color: '#38bdf8', fontWeight: 700, border: '1px solid #0ea5e944' }}>Free Agent</span>}
               {isCaptain && <span style={{ fontSize: 12, padding: '2px 8px', borderRadius: 4, background: '#b4530033', color: '#f59e0b', fontWeight: 700 }}>Captain</span>}
-              {isIR && <span style={{ fontSize: 12, padding: '2px 8px', borderRadius: 4, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>Injured Reserve</span>}
+              {isIR && <span style={{ fontSize: 12, padding: '2px 8px', borderRadius: 4, background: '#ef444422', color: '#f87171', fontWeight: 700 }}>{isAGMIR ? 'AGM IR' : 'Injured Reserve'}</span>}
             </div>
 
             <div className="mt-2 flex flex-wrap gap-3">
