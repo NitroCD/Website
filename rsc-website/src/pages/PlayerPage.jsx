@@ -136,11 +136,15 @@ export default function PlayerPage() {
                   <span className="font-bold text-white">{s['Tier']}</span>
                   <span className="text-slate-400 text-sm">Season Stats</span>
                 </div>
-                {s['Team'] && (
-                  <Link to={`/team/${toSlug(s['Team'].split(',')[0].trim())}`} className="text-sm text-sky-400 hover:text-sky-300 transition-colors">
-                    {s['Team'].split(',').map(t => t.trim()).join(', ')}
+                {isFreeAgent ? (
+                  <span className="text-sm text-slate-400">
+                    {contract?.['Contract Status'] === 'Permanent Free Agent' || contract?.['Contract Status'] === 'Perm FA in Waiting.' ? 'Permanent Free Agent' : 'Free Agent'}
+                  </span>
+                ) : teamName ? (
+                  <Link to={`/team/${toSlug(teamName)}`} className="text-sm text-sky-400 hover:text-sky-300 transition-colors">
+                    {teamName}
                   </Link>
-                )}
+                ) : null}
               </div>
               {STAT_SECTIONS.map(section => (
                 <div key={section.label} className="px-4 py-3 border-b border-slate-800 last:border-0">

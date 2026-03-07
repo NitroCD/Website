@@ -4,8 +4,15 @@ import TierStandings from '../components/standings/TierStandings';
 import TierStats from '../components/stats/TierStats';
 import TierRosters from '../components/roster/TierRosters';
 import TierSchedule from '../components/schedule/TierSchedule';
+import TierFreeAgents from '../components/roster/TierFreeAgents';
 
-const TABS = ['standings', 'stats', 'rosters', 'schedule'];
+const TABS = [
+  { key: 'standings', label: 'Standings' },
+  { key: 'stats', label: 'Stats' },
+  { key: 'rosters', label: 'Rosters' },
+  { key: 'free-agents', label: 'Free Agents' },
+  { key: 'schedule', label: 'Schedule' },
+];
 
 export default function TierPage() {
   const { tier: tierSlug, tab = 'standings' } = useParams();
@@ -45,10 +52,10 @@ export default function TierPage() {
 
       {/* Tabs */}
       <div style={{ borderBottom: '1px solid #334155', marginBottom: 24, display: 'flex', gap: 0 }}>
-        {TABS.map(t => (
+        {TABS.map(({ key, label }) => (
           <button
-            key={t}
-            onClick={() => setTab(t)}
+            key={key}
+            onClick={() => setTab(key)}
             style={{
               padding: '10px 20px',
               fontSize: 14,
@@ -56,14 +63,13 @@ export default function TierPage() {
               background: 'none',
               border: 'none',
               cursor: 'pointer',
-              color: tab === t ? color : '#64748b',
-              borderBottom: tab === t ? `2px solid ${color}` : '2px solid transparent',
+              color: tab === key ? color : '#64748b',
+              borderBottom: tab === key ? `2px solid ${color}` : '2px solid transparent',
               marginBottom: -1,
-              textTransform: 'capitalize',
               transition: 'color 0.15s',
             }}
           >
-            {t.charAt(0).toUpperCase() + t.slice(1)}
+            {label}
           </button>
         ))}
       </div>
@@ -72,6 +78,7 @@ export default function TierPage() {
       {tab === 'standings' && <TierStandings tier={tier} />}
       {tab === 'stats' && <TierStats tier={tier} />}
       {tab === 'rosters' && <TierRosters tier={tier} />}
+      {tab === 'free-agents' && <TierFreeAgents tier={tier} />}
       {tab === 'schedule' && <TierSchedule tier={tier} />}
     </div>
   );

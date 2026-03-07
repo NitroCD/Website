@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
-import { getStatsForTier, formatStat, toSlug } from '../../utils/dataUtils';
+import { getStatsForTier, formatStat, toSlug, FA_STATUSES } from '../../utils/dataUtils';
 
 const TOTALS_COLS = [
   { key: 'GP',          label: 'GP',   decimals: 0, desc: 'Games Played' },
@@ -48,7 +48,12 @@ function computeStat(player, key, perGame, colDef) {
 }
 
 export default function TierStats({ tier }) {
-  const { stats } = useData();
+  const { stats, contracts } = useData();
+
+  const contractMap = {};
+  for (const c of contracts) {
+    if (c['RSC ID']) contractMap[c['RSC ID']] = c;
+  }
   const [sortCol, setSortCol] = useState('DI');
   const [sortDir, setSortDir] = useState('desc');
   const [minGP, setMinGP] = useState(1);
@@ -155,11 +160,14 @@ export default function TierStats({ tier }) {
                     </Link>
                   </td>
                   <td className="py-2 px-2 hidden md:table-cell">
-                    {player['Team'] && (
-                      <Link to={`/team/${toSlug(player['Team'].split(',')[0].trim())}`} className="text-slate-400 hover:text-slate-200 transition-colors text-xs">
-                        {player['Team'].split(',')[0].trim()}
-                      </Link>
-                    )}
+                    {(() => {
+                      const c = player['RSC ID'] ? contractMap[player['RSC ID']] : null;
+                      const team = c?.['Team'];
+                      const status = c?.['Contract Status'];
+                      const isFa = !team || FA_STATUSES.has(status);
+                      if (isFa) return <span className="text-slate-500 text-xs">Free Agent</span>;
+                      return <Link to={`/team/${toSlug(team)}`} className="text-slate-400 hover:text-slate-200 transition-colors text-xs">{team}</Link>;
+                    })()}
                   </td>
                   {STAT_COLS.map(c => (
                     <td
