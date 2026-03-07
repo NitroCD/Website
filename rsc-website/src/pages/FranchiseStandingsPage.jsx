@@ -9,8 +9,8 @@ function TH({ children, tooltip, className = '', style }) {
         {children}
         {tooltip && (
           <span style={{
-            position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
-            marginBottom: 6, padding: '4px 8px', fontSize: 11, background: '#0f172a', color: '#e2e8f0',
+            position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
+            marginTop: 6, padding: '4px 8px', fontSize: 11, background: '#0f172a', color: '#e2e8f0',
             borderRadius: 4, whiteSpace: 'nowrap', border: '1px solid #334155', zIndex: 20,
             pointerEvents: 'none', transition: 'opacity 0.15s',
           }} className="opacity-0 group-hover:opacity-100">
